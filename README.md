@@ -35,7 +35,12 @@
 <h3 align="center">Ecometrics3D</h3>
 
 
-
+  <p align="center">
+    An plugin to estimate how much energy your 3D print will use.
+    <br />
+    
+  </p>
+</div>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -75,8 +80,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Here are some basic instructions for how to use this plugin for Cura.
 
 ### Prerequisites
 
@@ -97,7 +101,7 @@ You will need to install Cura before using our tool. You can download and instal
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Upload an STL file as usual. Once the part is sliced, the plugin will provide estimates of how much energy your print will consume. The estimate will automatically update as you make changes to the part, orientation, and process parameters, so you can find a process plan that lowers the energy consumption. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,7 +133,7 @@ Project Link: [https://github.com/hbudinoff/Ecometrics3D](https://github.com/hbu
 ## Acknowledgments
 
 * This plugin uses [Cura-PauseBackendPlugin](https://github.com/fieldOfView/Cura-PauseBackendPlugin)
-* Thanks to [vasmov](https://github.com/vasmov)
+* Thanks to [vasmov](https://github.com/vasmov) for coding our initial ideas for this plugin.
 * []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
