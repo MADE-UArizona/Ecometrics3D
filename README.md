@@ -83,20 +83,16 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+You will need to install Cura before using our tool. You can download and install the latest verion [here](https://ultimaker.com/software/ultimaker-cura/). Note: we've only tested for compatibility with Cura 5.3.1.
+
+Cura 5.3.1
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/hbudinoff/Ecometrics3D.git
-   ```
-3. Install NPM packages
+1. Above the list of files in this repo, click <> Code.
+2. Click Download Code.
+3. Extract the compressed folder.
+4. Move the now uncompressed folder contents to the folder where Cura is installed.
    ```sh
    npm install
    ```
