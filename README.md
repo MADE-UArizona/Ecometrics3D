@@ -44,7 +44,6 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
@@ -55,8 +54,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -85,28 +82,22 @@ To get a local copy up and running follow these simple example steps.
 
 You will need to install Cura before using our tool. You can download and install the latest verion [here](https://ultimaker.com/software/ultimaker-cura/). Note: we've only tested for compatibility with Cura 5.3.1.
 
-Cura 5.3.1
-
 ### Installation
 
 1. Above the list of files in this repo, click <> Code.
-2. Click Download Code.
-3. Extract the compressed folder.
-4. Move the now uncompressed folder contents to the folder where Cura is installed.
-   ```sh
-   npm install
-   ```
-
+2. Click Download Code as a compressed folder.
+3. Extract All of the contents in the compressed folder.
+4. Open the Plugin folder located in the following location:
+* %APPDATA%\cura\<Cura version>\ (Windows)
+* $USER/Library/Application Support/cura/<Cura version>/ (OSX)
+5. Move the now uncompressed folder contents to the Plugin folder.
+6. Open Cura as usual. The plugin should load automatically.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,7 +108,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the  GNU Lesser General Public License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,8 +128,8 @@ Project Link: [https://github.com/hbudinoff/Ecometrics3D](https://github.com/hbu
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
+* This plugin uses [Cura-PauseBackendPlugin](https://github.com/fieldOfView/Cura-PauseBackendPlugin)
+* Thanks to [vasmov](https://github.com/vasmov)
 * []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
