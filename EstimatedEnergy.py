@@ -198,10 +198,8 @@ class EstimatedEnergy(Extension, QObject):
 
         if not not material_weight:
 
-            estimated_energy = 0.5 + (0.25 * print_temp +
-                                      0.25 * bed_temp +
-                                      0.25 * material_weight/density) * 0.5 * rated_power * bed_temp
-            estimated_energy = round(estimated_energy, 0)
+            estimated_energy = 0.0212 + .0000984 * current_print_time
+            estimated_energy = round(estimated_energy, 2)
             Logger.log("d", "== Estimated == {}".format(estimated_energy))
 
             Application.getInstance().getPreferences().setValue(
