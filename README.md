@@ -92,8 +92,8 @@ You will need to install Cura before using our tool. You can download and instal
 2. Click Download Code as a compressed folder.
 3. Extract All of the contents in the compressed folder.
 4. Open the Plugin folder located in the following location:
-* %APPDATA%\cura\<Cura version>\ (Windows)
-* $USER/Library/Application Support/cura/<Cura version>/ (OSX)
+* On windows: %APPDATA%\cura\<Cura version>\ 
+* On OSX: $USER/Library/Application Support/cura/<Cura version>/ 
 5. Move the now uncompressed folder contents to the Plugin folder.
 6. Open Cura as usual. The plugin should load automatically.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
